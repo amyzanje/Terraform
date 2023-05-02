@@ -1,0 +1,13 @@
+vpc-cidr,10.0.0.0/16
+enable-dns-hostnames,true
+enable-dns-support,true
+vpc-name,Sujit_vpc1
+igw_name,Sujit1
+public_subnet_cidr,10.0.1.0/24
+public_subnet_name,Public_Subnet
+private_subnet_cidr,10.0.0.0/24
+private_subnet_name,Private_Subnet
+public_rt,Public_RT
+private_rt,Private_RT
+public_sg,Public_SG_All_Allow
+private_sg,Private_SG_Only_allow_(Pub Subnet )

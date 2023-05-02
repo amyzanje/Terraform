@@ -1,0 +1,9 @@
+resource "null_resource" "pre_hook" {
+  provisioner "local-exec" {
+
+
+    command = "echo  >> terraform.tfvars && cmd.exe /c new.bat"
+
+
+  }
+}
